@@ -1,0 +1,42 @@
+/* CSS Reset */
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 18, 0.5);
+}
+
+header {
+  color: white;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: rgba(0, 86, 34, 0.5);
+}
+
+main {
+  color: white;
+  height: calc(100vh - 50px - 50px);
+  background-color: rgba(0, 86, 167, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: white;
+  height: 50px;
+  background-color: rgba(205, 86, 34, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  color: rgba(255, 0, 0, 0.8);
+}
+
+.second {
+  color: rgba(0, 0, 255, 0.6);
+}
